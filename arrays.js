@@ -30,7 +30,11 @@ function destructivelyRemoveElementFromBeginningOfArray(chocolateBars) {
 }
 
 function removeElementFromBeginningOfArray(chocolateBars) {
+<<<<<<< HEAD
   return chocolateBars.slice(1);
+=======
+  chocolateBars = chocolateBars.slice(1);
+>>>>>>> 08502e3bc055493fef6773e5041ed5c34a4ef4d4
 }
 
 function destructivelyRemoveElementFromEndOfArray(chocolateBars) {
@@ -39,6 +43,11 @@ function destructivelyRemoveElementFromEndOfArray(chocolateBars) {
 }
 
 function removeElementFromEndOfArray(chocolateBars) {
+<<<<<<< HEAD
   return chocolateBars.slice(0, chocolateBars.length - 1);
   
+=======
+  chocolateBars.slice(0, chocolateBars.length - 1);
+  return chocolateBars;
+>>>>>>> 08502e3bc055493fef6773e5041ed5c34a4ef4d4
 }
